@@ -1,0 +1,26 @@
+{
+    "name": "seoultra/seo-cookies",
+    "description": "A tiny cookie banner with three clear choices (Accept all, Necessary only, Reject all) and Google Consent Mode v2. WordPress plugin plus a plain-PHP helper.",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "keywords": ["cookie banner", "cookie consent", "gdpr", "google consent mode", "consent mode v2", "wordpress", "wordpress plugin", "privacy"],
+    "homepage": "https://seoultra.id/plugins/seo-cookies/",
+    "authors": [
+        { "name": "SEOULTRA", "homepage": "https://seoultra.id" }
+    ],
+    "support": {
+        "docs": "https://seoultra.id/plugins/seo-cookies/",
+        "issues": "https://github.com/seoultra/seo-cookies/issues",
+        "source": "https://github.com/seoultra/seo-cookies"
+    },
+    "require": {
+        "php": ">=7.4",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": { "SeoUltra\\SeoCookies\\": "src/" }
+    },
+    "scripts": {
+        "test": "php tests/php/run.php"
+    }
+}

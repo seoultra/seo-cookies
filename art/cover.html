@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><style>
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1200px;height:630px;overflow:hidden}
+body{font-family:Lato,"Noto Sans",sans-serif;color:#fff;position:relative;
+  background:radial-gradient(circle at 88% 8%,rgba(255,255,255,.12) 0 190px,transparent 191px),
+             radial-gradient(circle at 4% 104%,rgba(255,255,255,.08) 0 170px,transparent 171px),
+             linear-gradient(135deg,#2b1406 0%,#7c2d12 48%,#ea580c 100%)}
+.left{position:absolute;left:70px;top:78px;width:560px}
+.brand{display:flex;align-items:center;gap:20px}
+.brand svg{width:86px;height:86px;flex:0 0 86px}
+h1{font-size:76px;font-weight:900;letter-spacing:-1px;line-height:1}
+.sub{font-size:31px;margin:20px 0 34px;color:#ffedd5}
+ul{list-style:none;font-size:25px;line-height:1.75}
+ul li:before{content:"\2713  ";color:#fdba74;font-weight:900}
+.url{position:absolute;left:70px;bottom:52px;font-size:22px;color:#fed7aa}
+.win{position:absolute;right:62px;top:92px;width:478px;height:420px;background:#f6f7f9;border-radius:16px;box-shadow:0 30px 70px rgba(0,0,0,.35);overflow:hidden}
+.bar{height:36px;background:#e3e6eb;display:flex;align-items:center;gap:8px;padding:0 16px}
+.dot{width:12px;height:12px;border-radius:50%}
+.addr{margin-left:14px;height:16px;flex:1;background:#fff;border-radius:8px}
+.sk{margin:24px 26px 0}
+.sk i{display:block;height:12px;border-radius:6px;background:#dde1e7;margin-bottom:12px}
+.ban{position:absolute;left:14px;right:14px;bottom:14px;background:#fff;border-radius:14px;box-shadow:0 10px 30px rgba(0,0,0,.18);padding:18px 18px 16px;color:#1f2328}
+.ban b{display:block;font-size:19px;font-weight:900;margin-bottom:6px}
+.ban p{font-size:14px;line-height:1.45;color:#4b5563;margin-bottom:14px}
+.btns{display:grid;grid-template-columns:1fr 1fr;gap:9px}
+.btn{border:2px solid #ea580c;border-radius:10px;text-align:center;font-weight:800;font-size:15px;padding:9px 6px;color:#1f2328}
+.btn.p{grid-column:1/-1;background:#ea580c;color:#fff}
+</style></head><body>
+<div class="left">
+  <div class="brand">
+    <svg viewBox="0 0 24 24"><path d="M12 2.2a9.8 9.8 0 1 0 9.8 9.8 3.8 3.8 0 0 1-4.9-4.9A3.8 3.8 0 0 1 12 2.2z" fill="#fbbf24" stroke="#fff7ed" stroke-width=".8"/>
+      <g fill="#7c2d12"><circle cx="8" cy="9.5" r="1.25"/><circle cx="14.6" cy="15.6" r="1.35"/><circle cx="10.6" cy="13.6" r=".9"/><circle cx="7.6" cy="15.8" r="1"/><circle cx="16.4" cy="11" r=".85"/></g></svg>
+    <h1>SEO Cookies</h1>
+  </div>
+  <p class="sub">A tiny cookie banner for WordPress</p>
+  <ul>
+    <li>Accept all · Necessary only · Reject all</li>
+    <li>Google Consent Mode v2</li>
+    <li>41 languages, right-to-left ready</li>
+    <li>No tracking, no external requests</li>
+  </ul>
+</div>
+<div class="url">seoultra.id/plugins/seo-cookies</div>
+<div class="win">
+  <div class="bar"><span class="dot" style="background:#ff5f57"></span><span class="dot" style="background:#febc2e"></span><span class="dot" style="background:#28c840"></span><span class="addr"></span></div>
+  <div class="sk"><i style="width:58%"></i><i style="width:92%"></i><i style="width:84%"></i><i style="width:88%"></i></div>
+  <div class="ban">
+    <b>We use cookies</b>
+    <p>Some cookies keep this site working. With your OK, we also use cookies to measure traffic and show relevant ads.</p>
+    <div class="btns"><span class="btn p">Accept all</span><span class="btn">Necessary only</span><span class="btn">Reject all</span></div>
+  </div>
+</div>
+</body></html>
